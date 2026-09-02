@@ -26,3 +26,15 @@ __pycache__/
 
 /.wrangler/
 **/.wrangler/
+
+# Attrica: local recall log written by the why hook
+.attrica/
+
+# Attrica: decision records are source, not build output; re-include them
+# beneath whatever rule above ignores docs/.
+!docs/
+!docs/decisions/
+!docs/decisions/**
+
+# Attrica: local recall log written by the why hook
+.attrica/
